@@ -3,7 +3,7 @@
 
 /******Register*****/
 (POST)> http://localhost:5000/api/auth/register
-(body) => {"name":"Aakash", "email":"aa@gmail.com","password":"12345678","role":"user?"}
+(body) => {"name":"Prashant Singh", "email":"aa@gmail.com","password":"12345678","role":"user?"}
 
 
 /******Login*****/
@@ -16,4 +16,4 @@
 (Header) => {'x-access-token':'token value from login'}
 (response) => {userinfo}
 
-https://developerjwt.herokuapp.com/api/auth/users
+This is also deployed on heroku.
